@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './cart-item.styles.scss';
 
 const CartItem = ({ item: { price, imageUrl, name, quantity }}) => (
@@ -11,6 +12,6 @@ const CartItem = ({ item: { price, imageUrl, name, quantity }}) => (
             </span>
         </div>
     </div>
-)
+);
 
 export default CartItem;
